@@ -1,0 +1,19 @@
+body{
+    background-color: lightgrey;
+    text-align: left;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+header{
+    background-color: rgb(144, 130, 156);
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img{
+    max-width: 1000px;
+    max-height: 1000px;
+}
