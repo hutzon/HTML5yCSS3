@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.encabezado {
+    background-color: gray;
+    min-width: 320px;
+}
+
+
+.logo {
+    margin: 8px;
+    width: 300px;
+    height: 100px;
+}
+
+.navegar{
+    display: inline-block;
+    position: relative;
+    bottom: 80px;
+    left: 55%;
+    font-size: 20px;
+}
+
+.navegar li{
+    display: inline-block;
+    padding-right: 5px;
+    margin: 2px;
+    background-color: green;
+}
+
+.principal{
+    margin-top: 0;
+    background-color: greenyellow;
+}
+
+.seccion{
+    display: inline-flex;
+    background-color: blue;
+    
+}
+
+.seccion li{
+    background-color: brown;
+    width: 300px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.seccion img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.texto{
+    padding: 10px;
+}
